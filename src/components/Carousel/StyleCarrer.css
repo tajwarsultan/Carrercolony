@@ -1,0 +1,17 @@
+.react-multi-carousel-track li {
+        width: 500px !important;
+}
+.react-multi-carousel-track {
+    height: 350px !important;
+}
+
+
+@media screen and (max-width: 480px) {
+    .react-multi-carousel-track li {
+        width: 300px !important;
+}
+.react-multi-carousel-track {
+    height: 350px !important;
+}
+
+  }

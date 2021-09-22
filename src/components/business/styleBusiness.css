@@ -1,0 +1,17 @@
+.mini-img{
+    width: 250px;
+    position: absolute;
+    top:50%;
+    right: 10%;
+}
+
+    @media screen and (max-width: 768px) {
+
+        .mini-img{
+            position: absolute;
+            top: 82%;
+            right: 18%;
+
+        }
+
+    }

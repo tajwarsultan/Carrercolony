@@ -1,0 +1,18 @@
+
+.Main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Img{
+	width: 100px;
+	height: 50.15px;
+}
+.Carrercolony {
+	font-size: 24px;
+	font-weight:800;
+    margin-top: 9px;
+}
+.name {
+    margin-top: -4px;
+}

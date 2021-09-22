@@ -1,0 +1,68 @@
+.cardContainer{
+	border: 1px lightgray solid;
+    border-radius:10px;
+    padding:10px;
+    width:325px;
+}
+.cardContainer:hover{
+	box-shadow: -1px 2px 20px 8px rgb(33 33 33 / 20%);
+    transition: .1s ease;
+}
+.H1{
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+}
+
+.H2{
+font-size: 22px;
+line-height: 28px;
+font-weight:normal
+}
+
+
+.cardImg{
+margin-top:10px;
+width:300px;
+height:300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:300px;
+    height:300px;
+    opacity: 0;
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+  }
+  .a:hover .overlay {
+    opacity: 0.7;
+  }
+  .fa-user:hover {
+    color: #eee;
+  }
+  .a {
+    position: relative;
+  }
+  .icon{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-icon{
+      width: 70px;
+      height: 70px;
+      background-color: #00B7E3;
+      position: absolute;
+      top: 35%;
+      left: 38%;
+      border-radius: 50%;
+  }
